@@ -1,8 +1,0 @@
-When should accessor methods be used?
-Limit Direct Access: Avoid exposing internal variables directly. This helps prevent tight coupling between classes and ensures that each class retains control over its own state.
-
-Encapsulate Behavior, Not Data: Design classes to provide behaviors. Rather than fetching data for external manipulation, create methods that handle the tasks the class is responsible for.
-
-Necessary Exposure: Use accessors only when you genuinely need to expose some internal state for interoperability or legacy reasons. Ensure this exposure does not compromise the class's integrity.
-
-Protect Invariants: If a class has invariants—conditions that must always be true—use accessors cautiously to maintain these invariants and prevent unwanted changes from other parts of the code.
